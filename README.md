@@ -53,18 +53,18 @@ Isolates dominant traffic patterns and principal congestion modes across Bengalu
 ## 📂 Repository Structure
 
 ```
-bangalore-traffic-pattern-analysis/
+Traffic-Flow-Pattern-Detection-LA/
 ├── data/
 │   ├── bangalore_traffic.csv         # 24-hour traffic volume dataset across arterial corridors
 │   └── bangalore_traffic.csv.xls     # Original raw tabular export
 ├── docs/
 │   └── Traffic_Patterns_Presentation.pptx # Technical presentation slide deck
 ├── figures/
-│   ├── WhatsApp Image 2026-04-07 at 09.17.40.jpeg # Traffic Intensity Heatmap & Prediction Accuracy
-│   ├── WhatsApp Image 2026-04-08 at 15.37.39.jpeg # Correlation Matrix & Diurnal Coupling
-│   ├── WhatsApp Image 2026-04-08 at 15.38.40.jpeg # Residual Error & Loss Curves
-│   ├── WhatsApp Image 2026-04-08 at 15.39.11.jpeg # Eigenvalue Spectrum & Dominant Modes
-│   └── WhatsApp Image 2026-04-08 at 15.40.09.jpeg # Corridors Comparison & RREF Basis
+│   ├── traffic_intensity_heatmap_and_prediction_accuracy.jpeg # 4-Road baseline heatmap and least-squares accuracy
+│   ├── bangalore_24hr_traffic_intensity_heatmap.jpeg          # Full 24-corridor 24-hour volume heatmap
+│   ├── hourly_time_slot_correlation_matrix.jpeg               # 24x24 hourly Pearson correlation matrix
+│   ├── least_squares_prediction_vs_actual_2300.jpeg           # Actual vs Least Squares predicted late-night traffic
+│   └── diurnal_hourly_traffic_trends_curves.jpeg              # 24-hour diurnal volume curves showing commute peaks
 ├── final.py                          # Core Python script (RREF, Rank, Least Squares, SVD)
 ├── bangalore_traffic.csv             # Root symlink/copy for zero-argument execution
 ├── Traffic_Patterns_Presentation.pptx # Root technical presentation copy
