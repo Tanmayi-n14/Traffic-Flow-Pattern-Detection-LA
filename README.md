@@ -102,7 +102,13 @@ python final.py data/bangalore_traffic.csv
 
 ---
 
-## 👤 Author
+## 👥 Team Members & Contributions
 
-* **Tanmayi Nagabhairava** ([@Tanmayi-n14](https://github.com/Tanmayi-n14)) — `PES1UG24CS493`
-* Department of Computer Science & Engineering, PES University
+| Member | SRN | Contribution |
+| :--- | :--- | :--- |
+| **Tanmayi Nagabhairava** | `PES1UG24CS493` | Data acquisition, matrix setup, and documentation |
+| **Tejaswini R Pujar** | `PES1UG24CS500` | Python implementation and Least Squares regression logic |
+| **Vaishnavi** | `PES1UG24CS514` | Mathematical proofs (Rank, Eigenvalues, RREF) |
+| **Varsha Anil Patil** | `PES1UG24CS516` | Data visualizations and presentation design |
+
+*Department of Computer Science & Engineering, PES University (Section I, Semester 4)*
